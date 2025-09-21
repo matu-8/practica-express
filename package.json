@@ -1,12 +1,25 @@
 {
-  "name": "express_sequelize_practica",
+  "name": "practica-express",
   "version": "1.0.0",
-  "description": "Practica con instalación depaquetes npm y levantar servidor con express",
-  "license": "ISC",
-  "author": "",
-  "type": "module",
+  "description": "",
   "main": "app.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "dev": "node --watch app.js"
+  },
+  "type": "module",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/matu-8/practica-express.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/matu-8/practica-express/issues"
+  },
+  "homepage": "https://github.com/matu-8/practica-express#readme",
+  "dependencies": {
+    "dotenv": "^17.2.2",
+    "express": "^5.1.0"
   }
 }
